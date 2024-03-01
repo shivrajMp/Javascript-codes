@@ -44,7 +44,7 @@ s2 = "Nikhil";
 //t k n h l
 // find duplicate
 //    3rd solution
-var filteredArray = (s1.split('')||[])?.filter(function (n) {
-  return (s2.split('')||[]).indexOf(n) !== -1;
-});
-console.log(filteredArray)
+// var filteredArray = (s1.split('')||[])?.filter(function (n) {
+//   return (s2.split('')||[]).indexOf(n) !== -1;
+// });
+// console.log(filteredArray)
