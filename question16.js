@@ -1,6 +1,7 @@
 arr = [1,2,3,4,-10,1,1,1]
 arr =[1,1,3,1,1]
 sum =0;
+// left sum should same as right sum of index 
 for(let j=0;j<arr.length;j++){
   sum+=arr[j];
 }
