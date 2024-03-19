@@ -1,0 +1,19 @@
+// write code for multiple of n number in given series 
+const valuesLimit=100;
+const multiplier = 3
+let multiplierList=[]
+for(index=3;index < valuesLimit; index + multiplier){
+
+  multiplierList.push(index)
+
+}
+
+// second way
+
+for(index=1;index < valuesLimit; index++){
+
+  if((index % multiplier) ==0)
+  multiplierList.push(index)
+
+}
+
